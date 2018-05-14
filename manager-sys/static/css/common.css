@@ -1,0 +1,27 @@
+/*位置*/
+.center{
+	text-align: center;
+}
+
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+.ml_10{
+	margin-left: 10px;
+}
+/*颜色*/
+.active{
+	color:#00539F;
+}
+.black{
+	color:#000000;
+}
+/*字体*/
+.italic{
+	font-style: italic;
+    font-family: cursive;
+}

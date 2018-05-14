@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    	<title>manager-sys</title>
+  	</head>
+  	<style type="text/css">
+  		.containe {
+              border: 1px solid green;
+            }
+      	.containe{ width:320px; }
+        .wrapper{
+          position:relative;
+          padding-top:25px;
+          padding-bottom:56.25%;   // 16/9 = 0.5625;
+          height:0;
+          border: 1px solid red;
+        }
+        .content{
+          position:absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height:100%;
+          background:gray;
+        }
+  	</style>
+  	<body>
+  		<!-- <div id="app"></div>  -->
+    	<!-- <div id="test">{{ message }}</div>
+			
+    	<div id="headImg" >
+	    	<div>
+	    		<button v-on:click="play">开始轮播</button>
+				<button v-on:click="pause">暂停轮播</button>
+	    	</div>
+	    	<transition-group tag="ul" name="image">
+	    		<li v-for="(img, index) in img" v-show="index==mark" :key="index">
+	    			<span>
+		    			<img v-bind:src="url+img"/>
+		    		</span>
+	    		</li>
+	    	</ul>
+    	</div> -->
+    	<div>
+    		<div id="mainTop">
+    		</div>
+    		<div style="width: 80%;margin: auto;">
+	    		<div id="topHead">
+	    			<img v-bind:src="url+">
+	    			<div></div>
+	    		</div>
+	    		<hr>
+	    		<div>
+	    			<div class="fl" style="width:70%;border-right: 3px #F6F6F6 solid;">
+	    				<div style="border-bottom: 3px #F6F6F6 solid;">
+		    				<div id="imgShow"></div>
+		    				<div id="top_article"></div>
+	    				</div>
+	    				<div id="newList"></div>
+	    			</div>
+	    			<div class="fl" style="width:30%;">
+	    				<div class="containe">
+					      <div class="wrapper">
+					         <div class="content">content</div>
+					      </div>
+					    </div>
+	    			</div>
+	    		</div>
+    		</div>
+    	</div>
+  	</body>
+</html>
