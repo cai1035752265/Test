@@ -1,2 +1,1 @@
-# Test
-我的测试代码仓库
+# p6-template
